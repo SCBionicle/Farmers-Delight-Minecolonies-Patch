@@ -8,7 +8,7 @@
       }
     ],
     "result": "farmersdelight:rice",
-    "additional-output": [
+    "alternate-output": [
         {
             "item": "farmersdelight:straw",
             "count": 5
