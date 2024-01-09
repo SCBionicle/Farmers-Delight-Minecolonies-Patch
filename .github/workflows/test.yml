@@ -17,8 +17,8 @@ jobs:
             - uses: actions/setup-node@v4
             - name: install linters
               run: |
-                npm init @eslint/config
+                npm install xo --save-dev
             - name: Linting
               uses: wearerequired/lint-action@v2
               with:
-                eslint: true
+                xo: true
