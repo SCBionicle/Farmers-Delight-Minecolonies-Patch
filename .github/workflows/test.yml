@@ -1,0 +1,19 @@
+name: Lint-Test
+on:
+    push:
+        branches:
+            - main
+    pull_request:
+
+jobs:
+    lint:
+        name: Lint Test
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                token: ${{ secrets.GITHUB_TOKEN }}
+            - name: Linting
+              uses: wearerequired/lint-action
+              with:
+                eslint: true
