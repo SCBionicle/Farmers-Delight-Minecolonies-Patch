@@ -43,3 +43,4 @@ jobs:
                   ./data/*
                   pack.mcmeta
                 dependencies: ${{ vars.MODRINTH_DEPEND}}
+                loaders: datapack
