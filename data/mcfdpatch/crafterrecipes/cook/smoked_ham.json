@@ -1,0 +1,15 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "cookassistant_smelting",
+    "inputs": [
+      {
+        "item": "farmersdelight:ham",
+        "count": 1
+      }
+    ],
+    "min-building-level": 3,
+    "result": "farmersdelight:smoked_ham",
+    "intermediate": "minecraft:smoker",
+    "show-tooltip": true
+ }

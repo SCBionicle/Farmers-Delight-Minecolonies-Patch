@@ -1,17 +1,17 @@
 {
     "type": "recipe",
-    "count": 1,
+    "count": 6,
     "crafter": "planter_crafting",
     "inputs": [
       {
-        "item": "minecraft:wheat_seeds"
+        "item": "farmersdelight:straw_bale"
       }
     ],
-    "result": "farmersdelight:rice",
-    "alternate-output": [
+    "result": "farmersdelight:tomato",
+    "additional-output":[
         {
-            "item": "farmersdelight:straw",
-            "count": 5
+            "item": "farmersdelight:rotten_tomato",
+            "count": 3
         }
     ],
     "research-id": "minecolonies:technology/takingdivinglessons",

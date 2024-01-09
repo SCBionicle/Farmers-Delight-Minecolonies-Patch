@@ -1,0 +1,12 @@
+{
+    "type": "recipe",
+    "count": 9,
+    "crafter": "farmer_crafting",
+    "inputs": [
+      {
+        "item": "farmersdelight:straw_bale"
+      }
+    ],
+    "result": "farmersdelight:straw",
+    "show-tooltip": true
+ }
