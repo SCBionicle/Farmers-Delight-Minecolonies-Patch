@@ -14,6 +14,6 @@ jobs:
               with:
                 token: ${{ secrets.GITHUB_TOKEN }}
             - name: Linting
-              uses: wearerequired/lint-action
+              uses: wearerequired/lint-action@v2
               with:
                 eslint: true
