@@ -39,3 +39,7 @@ jobs:
                 modrinth-token: ${{ secrets.MODRINTH_PUBLISH_TOKEN }}
 
                 version: ${{ inputs.mc_version }} - ${{ inputs.pack_version }}${{ inputs.version_type }}
+                files: |
+                  ./data/*
+                  pack.mcmeta
+                dependencies: ${{ vars.MODRINTH_DEPEND}}
