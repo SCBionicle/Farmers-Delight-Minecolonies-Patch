@@ -38,7 +38,7 @@ jobs:
                 modrinth-id: qzywxGQ9
                 modrinth-token: ${{ secrets.MODRINTH_PUBLISH_TOKEN }}
 
-                version: ${{ inputs.mc_version }} - ${{ inputs.pack_version }}${{ inputs.version_type }}
+                version: ${{ inputs.mc_version }}-${{ inputs.pack_version }}${{ inputs.version_type }}
                 files: |
                   ./data/*
                   pack.mcmeta
