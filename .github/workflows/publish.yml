@@ -31,6 +31,12 @@ jobs:
             - uses: actions/checkout@v4
               with:
                 token: ${{ secrets.GITHUB_TOKEN }}
+            - name: Install Dependences
+              run: |
+                sudo apt install zip
+            - name: Prepare Deployment File
+              run: |
+                zip ./mcfdpatch.zip -r ./data/ ./pack.mcmeta
             - uses: Kir-Antipov/mc-publish@v3.3
               with:
                 github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -40,7 +46,6 @@ jobs:
 
                 version: ${{ inputs.mc_version }}-${{ inputs.pack_version }}${{ inputs.version_type }}
                 files: |
-                  ./data/*
-                  pack.mcmeta
+                  ./mcfdpatch.zip
                 dependencies: ${{ vars.MODRINTH_DEPEND}}
                 loaders: datapack
