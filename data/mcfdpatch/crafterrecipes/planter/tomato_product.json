@@ -1,0 +1,18 @@
+{
+    "type": "recipe",
+    "count": 6,
+    "crafter": "planter_crafting",
+    "inputs": [
+      {
+        "item": "farmersdelight:straw_bale"
+      }
+    ],
+    "result": "farmersdelight:tomato",
+    "additional-output":[
+        {
+            "item": "farmersdelight:rotten_tomato",
+            "count": 3
+        }
+    ],
+    "show-tooltip": true
+ }
