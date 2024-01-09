@@ -45,7 +45,7 @@ jobs:
                 modrinth-token: ${{ secrets.MODRINTH_PUBLISH_TOKEN }}
 
                 version-type: ${{ inputs.version_type }}
-                version: ${{ inputs.mc_version }}-${{ inputs.pack_version }}
+                version: mc${{ inputs.mc_version }}-${{ inputs.pack_version }}
                 files: |
                   ./mcfdpatch.zip
                 dependencies: ${{ vars.MODRINTH_DEPEND}}
