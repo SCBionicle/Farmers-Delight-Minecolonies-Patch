@@ -1,0 +1,13 @@
+{
+    "type": "recipe",
+    "count": 4,
+    "crafter": "cookassistant_crafting",
+    "inputs": [
+      {
+        "item": "minecraft:porkchop"
+      }
+    ],
+    "min-building-level": 4,
+    "result": "farmersdelight:bacon",
+    "show-tooltip": true
+ }

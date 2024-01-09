@@ -1,0 +1,13 @@
+{
+    "type": "recipe",
+    "count": 4,
+    "crafter": "cookassistant_crafting",
+    "inputs": [
+      {
+        "item": "minecraft:mutton"
+      }
+    ],
+    "min-building-level": 3,
+    "result": "farmersdelight:mutton_chops",
+    "show-tooltip": true
+ }

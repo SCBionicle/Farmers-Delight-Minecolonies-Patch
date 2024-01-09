@@ -1,0 +1,15 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "cookassistant_crafting",
+    "inputs": [
+      {
+        "item": "farmersdelight:rice"
+      },
+      {
+        "item": "minecraft:bowl"
+      }
+    ],
+    "result": "farmersdelight:cooked_rice",
+    "show-tooltip": true
+ }

@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "count": 4,
+    "crafter": "cookassistant_crafting",
+    "inputs": [
+      {
+        "item": "farmersdelight:shepherds_pie_block"
+      },
+      {
+        "item": "minecraft:bowl",
+        "count": 4
+      }
+    ],
+    "result": "farmersdelight:shepherds_pie",
+    "additional-output": 
+    [
+      {
+        "item": "minecraft:bowl"
+      }
+    ],
+    "show-tooltip": true
+ }

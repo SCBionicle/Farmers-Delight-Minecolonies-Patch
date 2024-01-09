@@ -1,0 +1,25 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "cookassistant_crafting",
+    "inputs": [
+      {
+        "item": "farmersdelight:rice"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "minecraft:egg"
+      },
+      {
+        "item": "minecraft:carrot"
+      },
+      {
+        "item": "farmersdelight:onion"
+      }
+    ],
+    "min-building-level": 3,
+    "result": "farmersdelight:fried_rice",
+    "show-tooltip": true
+ }

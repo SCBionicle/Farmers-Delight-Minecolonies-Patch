@@ -1,0 +1,13 @@
+{
+    "type": "recipe",
+    "count": 4,
+    "crafter": "cookassistant_crafting",
+    "inputs": [
+      {
+        "item": "minecraft:beef"
+      }
+    ],
+    "min-building-level": 3,
+    "result": "farmersdelight:minced_beef",
+    "show-tooltip": true
+ }
