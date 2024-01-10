@@ -1,0 +1,14 @@
+{
+    "type": "recipe",
+    "count": 2,
+    "crafter": "cookassistant_crafting",
+    "inputs": [
+      {
+        "item": "farmersdelight:cabbage"
+      }
+    ],
+    "min-building-level": 3,
+    "result": "farmersdelight:cabbage_leaf",
+    "show-tooltip": true,
+    "tool": "axe"
+ }

@@ -1,0 +1,17 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "baker_crafting",
+    "inputs": [
+      {
+        "item": "farmersdelight:tomato",
+        "count": 2
+      },
+      {
+        "item": "minecraft:bowl"
+      }
+    ],
+    "min-building-level": 3,
+    "result": "farmersdelight:tomato_sauce",
+    "show-tooltip": true
+ }
