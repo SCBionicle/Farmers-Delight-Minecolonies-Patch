@@ -1,0 +1,27 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "cookassistant_crafting",
+    "inputs": [
+      {
+        "item": "farmersdelight:minced_meat"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "minecraft:carrot"
+      },
+      {
+        "item":"minecraft:potato"
+      }
+    ],
+    "result": "farmersdelight:beef_stew",
+    "additional-output": 
+    [
+      {
+        "item": "minecraft:bowl"
+      }
+    ],
+    "show-tooltip": true
+ }
