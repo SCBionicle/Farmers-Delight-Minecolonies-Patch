@@ -1,0 +1,15 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "baker_crafting",
+    "inputs": [
+      {
+        "item": "minecolonies:bread_dough"
+      }
+    ],
+    "min-building-level": 2,
+    "result": "farmersdelight:raw_pasta",
+    "tool": "axe",
+    "intermediate": "minecraft:crafting_table",
+    "show-tooltip": true
+ }
