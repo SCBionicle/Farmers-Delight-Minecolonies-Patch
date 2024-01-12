@@ -49,4 +49,6 @@ jobs:
                 files: |
                   ./mcfdpatch.zip
                 dependencies: ${{ vars.MODRINTH_DEPEND}}
-                loaders: datapack
+                loaders: datapack                
+
+                game-versions: ${{ inputs.mc_version }}
