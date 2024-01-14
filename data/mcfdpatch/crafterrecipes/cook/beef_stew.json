@@ -17,11 +17,5 @@
       }
     ],
     "result": "farmersdelight:beef_stew",
-    "additional-output": 
-    [
-      {
-        "item": "minecraft:bowl"
-      }
-    ],
     "show-tooltip": true
  }
