@@ -4,7 +4,7 @@
     "crafter": "cookassistant_crafting",
     "inputs": [
       {
-        "item": "minecolonies:bread_dough"
+        "item": "farmersdelight:wheat_dough"
       },
       {
         "item": "farmersdelight:cabbage_leaf"
