@@ -1,0 +1,27 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "cookassistant_crafting",
+    "inputs": [
+      {
+        "item": "farmersdelight:raw_pasta"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "farmersdelight:cabbage_leaf"
+      },
+      {
+        "item":"minecraft:brown_mushroom"
+      },
+      {
+        "item":"farmersdelight:tomato"
+      },
+      {
+        "item":"minecraft:carrot"
+      }
+    ],
+    "result": "farmersdelight:vegetable_noodles",
+    "research-id": "minecolonies:technology/takingdivinglessons"
+ }

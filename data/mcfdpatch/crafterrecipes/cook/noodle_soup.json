@@ -1,0 +1,24 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "cookassistant_crafting",
+    "inputs": [
+      {
+        "item": "farmersdelight:raw_pasta"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "farmersdelight:fried_egg"
+      },
+      {
+        "item":"minecraft:dried_kelp"
+      },
+      {
+        "item":"farmersdelight:bacon"
+      }
+    ],
+    "result": "farmersdelight:noodle_soup",
+    "show-tooltip": true
+ }
