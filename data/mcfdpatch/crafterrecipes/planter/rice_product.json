@@ -8,7 +8,7 @@
       }
     ],
     "result": "farmersdelight:rice",
-    "additional-output": [
+    "alternate-output": [
         {
             "item": "farmersdelight:straw",
             "count": 5
@@ -17,4 +17,5 @@
     "research-id": "minecolonies:technology/takingdivinglessons",
     "show-tooltip": true,
     "intermediate": "minecraft:water"
+
  }
