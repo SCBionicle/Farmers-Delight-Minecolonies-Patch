@@ -1,0 +1,12 @@
+{
+    "type": "recipe",
+    "count": 1,
+    "crafter": "fletcher_custom",
+    "inputs": [
+      {
+        "item": "farmersdelight:straw",
+        "count": 4
+      }
+    ],
+    "result": "farmersdelight:canvas"
+ }

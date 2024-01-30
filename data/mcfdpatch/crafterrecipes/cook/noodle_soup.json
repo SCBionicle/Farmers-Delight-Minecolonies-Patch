@@ -4,7 +4,7 @@
     "crafter": "cookassistant_crafting",
     "inputs": [
       {
-        "item": "farmersdelight:rice"
+        "item": "farmersdelight:raw_pasta"
       },
       {
         "item": "minecraft:bowl"
@@ -13,13 +13,12 @@
         "item": "farmersdelight:fried_egg"
       },
       {
-        "item": "minecraft:carrot"
+        "item":"minecraft:dried_kelp"
       },
       {
-        "item": "farmersdelight:onion"
+        "item":"farmersdelight:bacon"
       }
     ],
-    "min-building-level": 3,
-    "result": "farmersdelight:fried_rice",
+    "result": "farmersdelight:noodle_soup",
     "show-tooltip": true
  }

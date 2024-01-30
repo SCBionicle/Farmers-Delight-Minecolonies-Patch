@@ -10,12 +10,11 @@
         "item": "minecraft:bowl"
       },
       {
-        "item": "minecraft:carrot"
+        "item": "farmersdelight:raw_pasta"
       },
       {
-        "item":"minecraft:potato"
+        "item":"farmersdelight:tomato_sauce"
       }
     ],
-    "result": "farmersdelight:beef_stew",
-    "show-tooltip": true
+    "result": "farmersdelight:pasta_with_meatballs"
  }
