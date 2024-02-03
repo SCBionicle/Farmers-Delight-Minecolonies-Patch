@@ -36,7 +36,7 @@ jobs:
                 sudo apt install zip
             - name: Prepare Deployment File
               run: |
-                zip ./mcfdpatch.zip -r ./data/ ./pack.mcmeta
+                zip ./mcfdpatch.zip -r ./data/ ./pack.mcmeta ./LICENSE
             - uses: Kir-Antipov/mc-publish@v3.3
               with:
                 github-token: ${{ secrets.GITHUB_TOKEN }}
